@@ -495,6 +495,7 @@ public class CardViewPagerFragment extends AbsBaseFragment implements PullToRefr
                 break;
 
             case 9:
+
                 card.setTitle("Bob1993_Dev" );
                 card.setSubTitle("Bob1993");
                 card.setDigest("今天为它起一个霸气点的名字——挖掘机 哈哈，大家快来快来star!!");
