@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backColor">#22000000</color>
+    <color name="black">#ff000000</color>
+    <color name="black_50_alpha">#88000000</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="border_gray">#ffcccccc</color>
+    <color name="category_app_divider">#ffc5c5c5</color>
+    <color name="color_cihei">#ff333333</color>
+    <color name="color_hei">#ff000000</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_shenhui">#ff999999</color>
+    <color name="color_zhonghui">#ff798089</color>
+    <color name="comment_bg">#fff8fbf8</color>
+    <color name="comment_hint">#ff979aa0</color>
+    <color name="comment_replay_bg">#ffedeeee</color>
+    <color name="comment_title">#ff3f454d</color>
+    <color name="comment_toolbar_hint">#ffced5db</color>
+    <color name="common_bg">#fff4f4f4</color>
+    <color name="community_auth_bg">#fff8f8f8</color>
+    <color name="community_bg">#ffe4e8eb</color>
+    <color name="community_blue_bg">#ff009fd3</color>
+    <color name="community_blue_text">#ff50cffa</color>
+    <color name="community_detail_user_info_bg">#ff373737</color>
+    <color name="community_show_times_bg">#ffeff3f4</color>
+    <color name="content">#ff444444</color>
+    <color name="dark">#e0000000</color>
+    <color name="dark_white">#ffd0d0d0</color>
+    <color name="defaultTextColor">#ff666666</color>
+    <color name="default_circle_indicator_fill_color">#ffffffff</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+    <color name="default_line_indicator_selected_color">#ff33b5e5</color>
+    <color name="default_line_indicator_unselected_color">#ffbbbbbb</color>
+    <color name="default_title_indicator_footer_color">#ff33b5e5</color>
+    <color name="default_title_indicator_selected_color">#ffffffff</color>
+    <color name="default_title_indicator_text_color">#bbffffff</color>
+    <color name="default_underline_indicator_selected_color">#ff33b5e5</color>
+    <color name="detail_bgColor">#fff8f8f8</color>
+    <color name="details_panel_separator">#ffbebebe</color>
+    <color name="divider_light">#ffd1d3d3</color>
+    <color name="empty_txt_color">#ffa5acb2</color>
+    <color name="gray">#66666666</color>
+    <color name="gray_3">#ff333333</color>
+    <color name="gray_4">#ff444444</color>
+    <color name="gray_5">#ff555555</color>
+    <color name="gray_6">#ff666666</color>
+    <color name="gray_8">#ff888888</color>
+    <color name="gray_9c">#ff9c9c9c</color>
+    <color name="gray_b4">#ffb4b4b4</color>
+    <color name="gray_bg">#ffefefef</color>
+    <color name="gray_dark">#ffd6d6d6</color>
+    <color name="gray_fa">#fffdfdfd</color>
+    <color name="green">#ff009900</color>
+    <color name="guide_page_1_bg">#ff2ec49b</color>
+    <color name="guide_page_2_bg">#ff3fb8d6</color>
+    <color name="guide_page_3_bg">#fffd7570</color>
+    <color name="image_border">#ffd4d4d4</color>
+    <color name="light_gray">#ffe0e0e0</color>
+    <color name="light_white">#fff0fbf9</color>
+    <color name="list_divider">#ffd0d0d0</color>
+    <color name="main_blue_light">#ff33b5e5</color>
+    <color name="ranking_top_name">#ff6e6e6e</color>
+    <color name="red">#ff990000</color>
+    <color name="same_app_item_bg">#ffe9ebea</color>
+    <color name="search_hint">#ffb1b6c0</color>
+    <color name="search_item_pressed">#ffe0e3e8</color>
+    <color name="setting_more">#ff878b90</color>
+    <color name="setting_title">#ff333333</color>
+    <color name="time_created">#ffa1a1a1</color>
+    <color name="title">#ff333333</color>
+    <color name="topic_bg">#ff009fd3</color>
+    <color name="translucent">#e0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="umeng_fb_color_btn_normal">#ff333333</color>
+    <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
+    <color name="up_times_bg_gray">#ffc3cdce</color>
+    <color name="up_times_bg_red">#ffef805d</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</item>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</item>
+    <color name="white">#ffffffff</color>
+    <color name="white_10_alpha">#1affffff</color>
+    <color name="white_15_alpha">#26ffffff</color>
+    <color name="white_60_alpha">#99ffffff</color>
+    <color name="white_80_alpha">#bbffffff</color>
+
+
+    <color name="androidColorA">#33B5E5</color>
+    <color name="androidColorB">#AA66CC</color>
+    <color name="androidColorC">#99CC00</color>
+    <color name="androidColorD">#FFBB33</color>
+    <color name="androidColorE">#FF4444</color>
+
+</resources>

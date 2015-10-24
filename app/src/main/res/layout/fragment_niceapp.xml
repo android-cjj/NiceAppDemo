@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@id/btn_side_menu_or_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/btn_common_logo"
+        android:drawablePadding="5.0dip"
+        android:paddingLeft="5.0dip"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/word_date" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5.0dip"
+        android:orientation="horizontal"
+        android:paddingRight="10.0dip">
+
+        <ImageButton
+            android:id="@id/btn_rocket_to_head"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:background="@color/transparent"
+            android:src="@drawable/btn_rocket_to_first"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/text_time_first"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/num_date" />
+
+        <TextView
+            android:id="@id/text_time_second"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="2.0dip"
+            android:layout_marginTop="3.0dip"
+            android:gravity="center_vertical"
+            android:lineSpacingMultiplier="1.15"
+            android:textColor="@color/white_60_alpha"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.extras.viewpager.PullToRefreshViewPager
+        android:id="@id/pager"
+        android:layout_width="fill_parent"
+        android:padding="30dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/rhythm_layout_height"
+        android:layout_marginTop="50.0dip"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        ptr:ptrAnimationStyle="rotate_and_anim"
+        ptr:ptrDrawable="@drawable/loading_1"
+        ptr:ptrMode="both"
+        ptr:ptrScrollingWhileRefreshingEnabled="false" />
+
+    <com.shine.niceapp.control.RhythmLayout
+        android:id="@id/box_rhythm"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/rhythm_layout_height"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" />
+    </com.shine.niceapp.control.RhythmLayout>
+</RelativeLayout>
